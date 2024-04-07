@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char s1[20],s2[20];
+    printf("enter elemets");
+    gets(s1);
+    printf("enter elemets");
+    gets(s2);
+    strcpy(s1,s2);
+    printf("%s",s1);
+}
