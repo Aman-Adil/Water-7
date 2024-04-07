@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+    char str[20];
+    int len;
+    printf("enter string\t");
+    gets(str);
+    len =strlen(str);
+    puts(str);
+    printf("length=%d",len);
+}
